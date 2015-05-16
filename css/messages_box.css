@@ -1,0 +1,43 @@
+.message_box{
+	background: #EEE;
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	min-height: 80px;
+}
+	.message_box_image{
+		position: absolute;
+		margin-left: 5px;
+		border-radius: 5px;
+	}
+	.message_box_header{
+		margin-left: 95px;
+		width: 80%;
+		border-bottom: dashed 1px #CCC;
+		margin-bottom: 3px;
+	}
+	.message_box_id{
+		position: relative;
+		top: -1px;
+		font-size: 10pt;
+		display: inline-block;
+		color: #888;
+	}
+	.message_box_nickname{
+		font-size: 12pt;
+		display: inline-block;
+		color: #888;
+		padding-right: 15px;
+		padding-left: 10px;
+	}
+	.message_box_date{
+		position: relative;
+		top: -1px;
+		font-size: 10pt;
+		display: inline-block;
+		color: #888;
+	}
+	.message_box_message{
+		font-size: 12pt;
+		margin-left: 95px;
+		font-family: "MSJHBD";
+	}

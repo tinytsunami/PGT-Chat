@@ -1,0 +1,35 @@
+.members_box{
+	background: #EEE;
+	margin: 5px;
+	border-radius: 5px;
+}
+	.members_box_nickname{
+		max-width: 180px;
+		font-size: 12pt;
+		display: inline-block;
+		color: #888;
+		padding-right: 5px;
+		padding-left: 5px;
+		border-right:solid 2px #888;
+		overflow: hidden;
+		margin-right: 5px;
+	}
+	.members_box_data{
+		font-size: 8pt;
+		display: inline-block;
+		color: #888;
+	}
+	.members_box_fc{
+		display: inline-block;
+		color: #888;
+	}
+	.members_box_message{
+		position: relative;
+		top: -2px;
+		left: 5px;
+		font-size: 10pt;
+		padding: 5px;
+	}
+	.members_box_message:before{
+		content: '-- ';
+	}
